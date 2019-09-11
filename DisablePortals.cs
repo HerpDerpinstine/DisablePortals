@@ -1,10 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Reflection;
-using System.Collections;
-using UnityEngine;
 using VRCModLoader;
-using VRCTools;
 using Harmony;
 
 namespace DisablePortals
@@ -14,7 +10,7 @@ namespace DisablePortals
         public const string Name = "DisablePortals";
         public const string Author = "Herp Derpinstine, yoshifan";
         public const string Company = "NanoNuke @ nanonuke.net";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
     }
     [VRCModInfo(ModInfo.Name, ModInfo.Version, ModInfo.Author)]
 
